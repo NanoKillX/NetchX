@@ -14,11 +14,12 @@ public class ModeService
 
     public string GetRelativePath(string fullName)
     {
-        var length = ModeDirectoryFullName.Length;
-        if (!ModeDirectoryFullName.EndsWith("\\"))
-            length++;
+        var relativePath = Path.GetRelativePath(ModeDirectoryFullName, fullName);
 
-        return fullName.Substring(length);
+        if (relativePath.StartsWith(".." + Path.DirectorySeparatorChar) || relativePath.Equals(".."))
+            throw new ArgumentException("Path is not located inside the mode directory", nameof(fullName));
+
+        return relativePath;
     }
 
     public string GetFullPath(string relativeName)
