@@ -1,0 +1,18 @@
+{
+  "packageName": "NetchX",
+  "publisher": "NanoKillX Software",
+  "version": "1.9.7",
+  "description": "Modern optimized proxy client for Windows.",
+  "configuration": "Release",
+  "platform": "Any CPU",
+  "payloadFolder": "payload",
+  "manifestPath": "manifest/AppxManifest.xml",
+  "msixOutput": "NetchX.msix",
+  "exeOutput": "NetchX-Setup.exe",
+  "icon": "assets/NetchX.ico",
+  "logos": {
+    "logo44": "assets/Logo44.png",
+    "logo124": "assets/Logo124.png",
+    "logo256": "assets/Logo256.png"
+  }
+}

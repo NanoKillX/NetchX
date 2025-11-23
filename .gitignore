@@ -1,5 +1,10 @@
 /.vs
 /.idea
-/release
+/release/*
+!/release/config/
+!/release/config/installer-config.json
+!/release/config/setup.iss
+!/release/manifest/
+!/release/manifest/AppxManifest.xml
 /packages
 /TestResults
