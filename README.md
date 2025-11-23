@@ -21,7 +21,7 @@ minimal text, glowing tech particles, digital storm theme.
 
 ⚡ NetchX — Neon-Powered VPN & Proxy Client for Windows
 A next-generation redesign of Netch, rebuilt with cyberpunk aesthetics, modern performance, and full Xray-core support.
-<div align="center"> <img src="YOUR-BANNER-LINK" width="100%" alt="NetchX Neon Banner"/> </div> <div align="center">
+<div align="center"> <img src="blob:https://www.pinterest.com/4091250b-a4cf-4148-98fb-e585478fdc5f" width="100%" alt="NetchX Neon Banner"/> </div> <div align="center">
 
 
 
@@ -184,3 +184,4 @@ Netch team
 Xray-core team
 
 Enhancements by NanoKillX
+
