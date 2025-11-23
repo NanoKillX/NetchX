@@ -1,26 +1,73 @@
-⚡ NetchX — Modern, Optimized VPN & Proxy Client for Windows
+A futuristic neon cyber interface banner for a Windows VPN app called "NetchX". 
+Blue and purple glowing rings, thunder energy, holographic UI panels, cyberpunk wires, 
+dark background, luminous fog, floating X symbol in center, ultra-sharp, 4K, 
+minimal text, glowing tech particles, digital storm theme.
 
-A redesigned and enhanced fork of Netch. Built for speed, stability & neon style.
 
-🎨 Overview
+<div align="center">
 
-NetchX is a modern evolution of the original Netch project — rebuilt with a clean UI, smoother routing, and expanded protocol support.
-It is designed for low latency, high stability, and Windows-native performance, powered by Xray-core and secure tunneling.
+![Stars](https://img.shields.io/github/stars/NanoKillX/NetchX?color=9400d3&style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/NanoKillX/NetchX?color=4b0082&style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/NanoKillX/NetchX?color=00eaff&style=for-the-badge)
+![Commits](https://img.shields.io/github/commit-activity/m/NanoKillX/NetchX?color=00ffea&style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/NanoKillX/NetchX?color=00ff88&style=for-the-badge)
+![License](https://img.shields.io/github/license/NanoKillX/NetchX?color=ff0066&style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Windows-0078d6?style=for-the-badge&logo=windows)
+![Core](https://img.shields.io/badge/Xray-Core-black?style=for-the-badge)
+![Open Source](https://img.shields.io/badge/Open%20Source-Yes-00b894?style=for-the-badge)
 
-🚀 Features
-🖥 Modern Neon Interface
+</div>
 
-Dark theme
 
-Fluent-like UI
+⚡ NetchX — Neon-Powered VPN & Proxy Client for Windows
+A next-generation redesign of Netch, rebuilt with cyberpunk aesthetics, modern performance, and full Xray-core support.
+<div align="center"> <img src="YOUR-BANNER-LINK" width="100%" alt="NetchX Neon Banner"/> </div> <div align="center">
 
-Glow accents
 
-Smooth animations
 
-System tray mini-controller
 
-🛰 Protocol Support
+
+
+
+
+
+
+
+
+
+
+</div>
+
+Now let’s give you the full wiki layout 👇
+
+📘 FULL WIKI LAYOUT FOR NETCHX (12-PAGE STRUCTURE)
+
+Create a folder called /wiki/ or use GitHub’s built-in wiki.
+Here’s the full structure:
+
+📍 1. Home
+
+Overview
+
+Goals
+
+What makes NetchX different
+
+Quick screenshots
+
+⚡ 2. Installation Guide
+
+How to download
+
+MSIX installer
+
+EXE installer
+
+Portable version
+
+Requirements (Windows 10/11)
+
+🛰 3. Protocol Support
 
 VLESS
 
@@ -32,25 +79,11 @@ Trojan
 
 Shadowsocks
 
-Clash configs
+Xray-core bridge
 
-Xray-core backend
+Unsupported protocols
 
-⚡ Performance
-
-Faster route selection
-
-Lower memory usage
-
-Auto-best-server
-
-Auto reconnect
-
-Kill switch
-
-Improved stability
-
-📡 Import & Export
+📡 4. Import & Export
 
 vmess://
 
@@ -58,75 +91,96 @@ vless://
 
 trojan://
 
-ss://
-
 clash://
 
-Subscription links
+Subscription URLs
 
-Config backup
+QR scanning
 
-QR import/export
+Config backups
 
-🔧 Technical Architecture
+🎨 5. UI & Theme System
 
-C# / .NET
+Neon mode
 
-Xray-core
+Fluent design
 
-System.Text.Json
+Animations
 
-Async streaming
+Tray controller
 
-Modular routing engine
+Dark/Light switching
 
-Windows-native networking
+⚙️ 6. Settings Explained
 
-📦 Installation
-Download
+Network options
 
-Get the latest release from the Releases section.
+DNS
 
-Portable
+IPv6
 
-Just run NetchX.exe.
+Kill switch
 
-Installer (Optional)
+Auto-connect
 
-We provide:
+Performance tuning
 
-NetchX.msix
+🧠 7. Smart Routing
 
-NetchX-Setup.exe
+Auto best-route
 
-📊 Screenshots
+Ping scanning
 
-Add your images here: UI, dark mode, connect screen, settings panel.
+Fallback servers
 
-🛠 Build Instructions
-git clone https://github.com/NanoKillX/NetchX
-cd NetchX
-dotnet build -c Release
+Gaming mode
 
-📜 License
+Streaming mode
 
-NetchX is licensed under GPL-3.0 in compliance with the original Netch project.
-You are free to modify and distribute your own version as long as you follow GPL-3 rules.
+🛠 8. Developer Guide
 
-💬 Credits
+Build from source
 
-Netch developers — original project
+Project structure
 
-Xray-core team — tunneling backend
+Dependencies
 
-NanoKillX — UI redesign, optimization, and enhanced features
+Debugging logs
 
-🌐 Links
+🔐 9. Security
 
-🔗 Releases: /releases
-🔗 Issues: /issues
-🔗 Source Code: /tree/main
+Encryption
 
-⭐ Support the Project
+DNS leak protection
 
-If NetchX helps you, consider giving the repo a ⭐ to support continued development.
+REALITY setup
+
+Local data encryption
+
+📦 10. Release Notes
+
+Version history
+
+Patch notes
+
+Roadmap
+
+Known issues
+
+💬 11. FAQ
+
+Examples:
+
+Why won't it connect?
+
+Why does ping show 999ms?
+
+Can I import Clash subscription?
+
+🌟 12. Credits
+
+Netch team
+
+Xray-core team
+
+Enhancements by NanoKillX
