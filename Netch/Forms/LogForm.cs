@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using Windows.Win32.Foundation;
+using Netch.Utils;
 using Windows.Win32.UI.WindowsAndMessaging;
 using static Windows.Win32.PInvoke;
 
@@ -14,6 +15,8 @@ public partial class LogForm : Form
     {
         InitializeComponent();
         _parent = parent;
+
+        ThemeManager.ApplyDark(this);
     }
 
     protected override void OnLoad(EventArgs? e)
