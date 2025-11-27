@@ -32,6 +32,8 @@ public partial class MainForm : Form
         InitializeComponent();
         NotifyIcon.Icon = Icon = Resources.icon;
 
+        ThemeManager.ApplyDark(this);
+
         AddAddServerToolStripMenuItems();
 
         #region i18N Translations
@@ -1414,6 +1416,16 @@ public partial class MainForm : Form
     }
 
     #endregion
+
+    protected override CreateParams CreateParams
+    {
+        get
+        {
+            var cp = base.CreateParams;
+            cp.ExStyle |= 0x02000000; // WS_EX_COMPOSITED to reduce flicker
+            return cp;
+        }
+    }
 
     #region ComboBox_DrawItem
 

@@ -12,6 +12,7 @@ public partial class SettingForm : BindingForm
         InitializeComponent();
         Icon = Resources.icon;
         i18N.TranslateForm(this);
+        ThemeManager.ApplyDark(this);
 
         #region General
 

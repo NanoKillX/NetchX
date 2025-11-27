@@ -9,6 +9,16 @@ public class BindingForm : Form
     private readonly Dictionary<Control, Func<string, bool>> _checkActions = new();
     private readonly Dictionary<Control, Action<Control>> _saveActions = new();
 
+    protected override CreateParams CreateParams
+    {
+        get
+        {
+            var cp = base.CreateParams;
+            cp.ExStyle |= 0x02000000; // WS_EX_COMPOSITED to reduce flicker
+            return cp;
+        }
+    }
+
     protected void BindTextBox(TextBoxBase control, Func<string, bool> check, Action<string> save, object value)
     {
         BindTextBox<string>(control, check, save, value);
